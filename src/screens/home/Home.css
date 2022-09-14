@@ -1,0 +1,22 @@
+.heading {
+    background-color: #ff9999;
+    padding: 8px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.flex-container{
+    display: flex;
+    width: 100%;
+}
+.left{
+    width: 76%;
+    
+    margin: 16px;
+}
+.left img:hover{
+    cursor: pointer;
+}
+.right{
+    margin: 16px;
+}
