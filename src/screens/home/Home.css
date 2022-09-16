@@ -18,5 +18,6 @@
     cursor: pointer;
 }
 .right{
+    width: 24%;
     margin: 16px;
 }
