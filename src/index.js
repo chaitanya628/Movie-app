@@ -4,11 +4,12 @@ import Home from './screens/home/Home';
 import './index.css';
 
 import reportWebVitals from './reportWebVitals';
+import Details from './screens/detail/Details';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <Home />
+   <Details />
   </React.StrictMode>
 );
 

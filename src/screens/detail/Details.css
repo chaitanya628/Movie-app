@@ -1,0 +1,30 @@
+/* It should have a left margin of 24px.
+ It should have a top margin of 8px.
+ It should have a bottom margin of 0px. 
+ It should have a height of 24px. 
+ When a user hovers/focuses on this button,
+ the cursor should change to a pointer that displays a pointing hand. */
+.back-to-home {
+    margin-left: 24px !important;
+    margin-top: 8px !important;
+    margin-bottom: 0px !important;
+    height: 24px;
+    
+
+}
+.back-to-home:hover{
+    cursor: pointer;
+}
+.details-container{
+    display: flex;
+}
+.left-container{
+    width: 20%;
+    margin-left: 24px;
+}
+.middle-container{
+    width: 60%;
+}
+.right-container{
+    width: 20%;
+}
